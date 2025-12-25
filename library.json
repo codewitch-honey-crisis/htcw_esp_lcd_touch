@@ -1,8 +1,8 @@
 {
-    "name": "htcw_esp_lcd_st7703",
-    "version": "0.1.1",
-    "description": "The st7703 component from the espressif registry packaged for PIO",
-    "keywords": ["rgb","lcd"],
+    "name": "htcw_esp_lcd_touch",
+    "version": "0.1.0",
+    "description": "The touch component from the espressif registry packaged for PIO",
+    "keywords": ["touch","input"],
     "authors": {
         "name":"honey the codewitch",
         "homepage": "https://www.codeproject.com/Members/code-witch"
@@ -13,6 +13,6 @@
     "repository":
     {
         "type": "git",
-        "url": "https://github.com/codewitch-honey-crisis/htcw_esp_lcd_st7703.git"
+        "url": "https://github.com/codewitch-honey-crisis/htcw_esp_lcd_touch.git"
     }
 }
