@@ -16,6 +16,14 @@
 
 static const char *TAG = "TP";
 
+#ifndef CONFIG_ESP_LCD_TOUCH_MAX_POINTS
+#define CONFIG_ESP_LCD_TOUCH_MAX_POINTS 5
+#endif
+#ifndef CONFIG_ESP_LCD_TOUCH_MAX_BUTTONS
+#define CONFIG_ESP_LCD_TOUCH_MAX_BUTTONS 1
+#endif
+
+
 /*******************************************************************************
 * Function definitions
 *******************************************************************************/
